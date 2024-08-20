@@ -1,0 +1,29 @@
+@keyframes maria{
+    to{
+      border-left: 5px solid #837f7f;
+    }
+  }
+  @keyframes words{
+    0%,25%{
+      content: "Developer";
+    }
+    26%,50%{
+      content: "Designer";
+    }
+    51%,75%{
+      content: "Photographer";
+    }
+    76%,100%{
+      content: "Freelancer";
+    }
+  
+  }
+  @keyframes typing{
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+      width: 0;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 85%, 65%, 80%{
+      width: calc(100% + 8px);
+    }
+  
+  }
