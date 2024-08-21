@@ -251,16 +251,20 @@ footer{
 .icon {
   font-size: 40px; 
 }
-
-.bg-image{
+.bg-image {
   position: relative;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-position: center center;
   padding-bottom: 50px;
 }
 
+
+@media (max-width: 1024px) {
+  .bg-image {
+    background-attachment: scroll; /* أو يمكنك ضبط خصائص أخرى هنا */
+  }
+}
 
 
 
